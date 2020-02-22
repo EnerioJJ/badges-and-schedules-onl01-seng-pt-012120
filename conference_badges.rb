@@ -10,7 +10,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index do |people, index|
-    
+    attendees(people) = index
   end
 end
 
